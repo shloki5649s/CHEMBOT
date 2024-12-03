@@ -1,0 +1,537 @@
+{
+	"intents":[
+		{
+			"tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "What's up?"
+            ],
+            "responses": [
+                "Hello! I'm your Chemistry Assistant. How can I help you today?",
+                "Hi there! Ready to explore the fascinating world of chemistry?",
+                "Greetings! What chemistry topic would you like to learn about?",
+                "Welcome! I'm here to help you with any chemistry questions."
+            ],
+            "difficulty": "easy"
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Catch you later",
+                "Talk to you later",
+                "Bye bye",
+                "Exit"
+            ],
+            "responses": [
+                "Goodbye! Keep exploring the amazing world of chemistry!",
+                "See you later! Remember, chemistry is everywhere around us.",
+                "Bye! Feel free to come back anytime you have chemistry questions.",
+                "Goodbye! Keep learning and stay curious about science!"
+            ],
+            "difficulty": "easy"
+		},
+		{
+			"tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Appreciate it",
+                "Great help",
+                "Thank you so much",
+                "You're awesome"
+            ],
+            "responses": [
+                "You're welcome! Always happy to help you understand chemistry.",
+                "My pleasure! Chemistry can be fascinating when explained well.",
+                "Glad I could help! Keep exploring and learning.",
+                "You're welcome! Chemistry is an exciting subject to learn."
+            ],
+            "difficulty": "easy"
+		},
+		{
+			"tag": "didnt_understand",
+            "patterns": [
+                "I don't understand",
+                "Can you explain again?",
+                "What do you mean?",
+                "This is confusing",
+                "Can you simplify?",
+                "I'm lost",
+                "Can you break it down?"
+            ],
+            "responses": [
+                "No worries! Let me explain the concept in a simpler way.",
+                "Chemistry can be complex. I'll break down the explanation step by step.",
+                "Let's approach this from a different angle to make it clearer.",
+                "I'll try to explain using a more straightforward example.",
+                "Sometimes complex topics need multiple explanations. Let me rephrase that for you."
+            ],
+            "difficulty": "easy"
+		},
+		{
+			"tag": "welcome",
+            "patterns": [
+                "Welcome",
+                "Nice to meet you",
+                "Who are you?",
+                "What can you do?",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "Welcome! I'm a Chemistry Assistant designed to help you understand chemistry concepts from class 9th to 12th. I can explain topics, answer questions, and make chemistry fun and understandable!",
+                "Hi there! I'm your personal chemistry guide. Whether you're struggling with atomic structure or exploring organic chemistry, I'm here to help you learn and explore.",
+                "Greetings! I'm an AI assistant specialized in chemistry education. I can help you with topics from basic atomic theory to advanced organic chemistry and more!",
+                "Hello! I'm a comprehensive chemistry learning assistant. My goal is to make chemistry simple, interesting, and easy to understand for students."
+            ],
+            "difficulty": "easy"
+		},
+		{
+			"tag": "learning_mode",
+            "patterns": [
+                "I want to learn chemistry",
+                "Help me study",
+                "Teach me chemistry",
+                "I need to prepare for my exam",
+                "Study tips for chemistry"
+            ],
+            "responses": [
+                "Great! I'll help you learn chemistry step by step. What specific topic or class would you like to start with?",
+                "Preparing for chemistry can be exciting! Let's break down complex topics into manageable parts. Which area do you want to focus on?",
+                "Chemistry learning is a journey of discovery. I'll guide you through concepts, explain difficult topics, and help you build a strong foundation.",
+                "Studying chemistry effectively requires understanding core concepts. I'll help you with explanations, examples, and practice strategies."
+            ],
+            "difficulty": "easy"
+		},
+		{
+			"tag": "matter_in_our_surroundings_class9",
+            "patterns": [
+                "What is matter?",
+                "Explain states of matter",
+                "How do particles behave in different states?",
+                "What are the characteristics of matter?"
+            ],
+            "responses": [
+                "Matter is anything that has mass and occupies space. It exists in three main states: solid, liquid, and gas, characterized by different particle arrangements and energy levels.",
+                "In solids, particles are tightly packed and vibrate in fixed positions. In liquids, particles can move around each other. In gases, particles move freely with large spaces between them."
+            ],
+            "difficulty": "easy",
+            "class": "9th"
+		},
+		{
+			"tag": "atoms_and_molecules_class9",
+            "patterns": [
+                "What is an atom?",
+                "How are molecules formed?",
+                "Explain chemical formula",
+                "What is the difference between atoms and molecules?"
+            ],
+            "responses": [
+                "An atom is the smallest unit of matter that retains the properties of an element. Molecules are formed when two or more atoms chemically combine.",
+                "Chemical formulas represent the composition of molecules, showing the types and numbers of atoms present in a compound."
+            ],
+            "difficulty": "medium",
+            "class": "9th"
+		},
+		{
+			"tag": "atoms_and_molecules_class9",
+            "patterns": [
+                "What is an atom?",
+                "How are molecules formed?",
+                "Explain chemical formula",
+                "What is the difference between atoms and molecules?"
+            ],
+            "responses": [
+                "An atom is the smallest unit of matter that retains the properties of an element. Molecules are formed when two or more atoms chemically combine.",
+                "Chemical formulas represent the composition of molecules, showing the types and numbers of atoms present in a compound."
+            ],
+            "difficulty": "medium",
+            "class": "9th"
+		},
+		{
+			"tag": "chemical_bonding_class10",
+            "patterns": [
+                "What is chemical bonding?",
+                "Explain ionic bond",
+                "How do covalent bonds form?",
+                "What is the difference between ionic and covalent bonds?"
+            ],
+            "responses": [
+                "Chemical bonding is the process of atom combination to form compounds. Ionic bonds involve electron transfer between metals and non-metals, while covalent bonds involve electron sharing between non-metals.",
+                "Ionic bonds create electrostatic attractions between oppositely charged ions, whereas covalent bonds share electrons to form molecular structures."
+            ],
+            "difficulty": "medium",
+            "class": "10th"
+		},
+		{
+			"tag": "periodic_classification_class10",
+            "patterns": [
+                "How are elements classified in the periodic table?",
+                "Explain periodic trends",
+                "What are metals, non-metals, and metalloids?",
+                "How do properties change across the periodic table?"
+            ],
+            "responses": [
+                "The periodic table classifies elements based on atomic number, electron configuration, and recurring chemical properties. Elements are grouped into metals, non-metals, and metalloids.",
+                "Periodic trends include atomic radius, ionization energy, electronegativity, and metallic character, which change systematically across periods and groups."
+            ],
+            "difficulty": "medium",
+            "class": "10th"
+		},
+		{
+			"tag": "carbon_compounds_class10",
+            "patterns": [
+                "What are carbon compounds?",
+                "Explain organic chemistry basics",
+                "How do carbon atoms bond?",
+                "What are functional groups?"
+            ],
+            "responses": [
+                "Carbon compounds are molecules containing carbon, capable of forming multiple bonds and complex structures. They form the basis of organic chemistry.",
+                "Carbon can form single, double, and triple bonds, creating diverse molecular structures through covalent bonding."
+            ],
+            "difficulty": "hard",
+            "class": "10th"
+		},
+		{
+            "tag": "redox_reactions_class10",
+            "patterns": [
+                "What are redox reactions?",
+                "Explain oxidation and reduction",
+                "How do electrons transfer in chemical reactions?",
+                "What is oxidation number?"
+            ],
+            "responses": [
+                "Redox (reduction-oxidation) reactions involve electron transfer between chemical species. Oxidation is the loss of electrons, while reduction is the gain of electrons.",
+                "Oxidation number helps track electron changes during chemical reactions, indicating the degree of oxidation or reduction."
+            ],
+            "difficulty": "hard",
+            "class": "10th"
+		},
+        {
+            "tag": "thermodynamics_class11",
+            "patterns": [
+                "What is thermodynamics in chemistry?",
+                "Explain enthalpy and entropy",
+                "How do energy changes occur in reactions?",
+                "What is Gibbs free energy?"
+            ],
+            "responses": [
+                "Chemical thermodynamics studies energy changes during chemical processes, focusing on heat transfer, work, and energy transformations.",
+                "Enthalpy measures heat content, entropy represents system disorder, and Gibbs free energy determines reaction spontaneity."
+            ],
+            "difficulty": "hard",
+            "class": "11th"
+        },
+        {
+            "tag": "equilibrium_class11",
+            "patterns": [
+                "What is chemical equilibrium?",
+                "Explain Le Chatelier's principle",
+                "How do reversible reactions work?",
+                "What factors affect chemical equilibrium?"
+            ],
+            "responses": [
+                "Chemical equilibrium is a state where forward and reverse reaction rates are equal, and concentrations of reactants and products remain constant.",
+                "Le Chatelier's principle states that when a system at equilibrium is disturbed, the system shifts to counteract the change and re-establish equilibrium."
+            ],
+            "difficulty": "hard",
+            "class": "11th"
+        },
+        {
+            "tag": "organic_chemistry_class11",
+            "patterns": [
+                "What is organic chemistry?",
+                "Explain hydrocarbon classification",
+                "How are organic compounds named?",
+                "What are isomers?"
+            ],
+            "responses": [
+                "Organic chemistry studies carbon-containing compounds. Hydrocarbons are classified into alkanes, alkenes, and alkynes based on bonding.",
+                "IUPAC nomenclature provides systematic naming rules for organic compounds, considering functional groups and carbon chain structure."
+            ],
+            "difficulty": "hard",
+            "class": "11th"
+        },
+        {
+            "tag": "electrochemistry_class12",
+            "patterns": [
+                "What is electrochemistry?",
+                "Explain electrolysis",
+                "How do electrochemical cells work?",
+                "What is standard electrode potential?"
+            ],
+            "responses": [
+                "Electrochemistry studies the relationship between electrical and chemical energy, focusing on electron transfer processes and electrochemical cells.",
+                "Electrolytic cells use electrical energy to drive non-spontaneous chemical reactions, while galvanic cells generate electricity from spontaneous reactions."
+            ],
+            "difficulty": "hard",
+            "class": "12th"
+        },
+        {
+            "tag": "coordination_compounds_class12",
+            "patterns": [
+                "What are coordination compounds?",
+                "Explain metal complexes",
+                "How are coordination compounds structured?",
+                "What is a ligand?"
+            ],
+            "responses": [
+                "Coordination compounds are complex substances where metal atoms or ions are bonded to specific molecules or ions called ligands.",
+                "Ligands are molecules or ions that donate electron pairs to form coordinate covalent bonds with metal centers, creating complex structures."
+            ],
+            "difficulty": "hard",
+            "class": "12th"
+        },
+        {
+            "tag": "surface_chemistry_class12",
+            "patterns": [
+                "What is surface chemistry?",
+                "Explain adsorption and absorption",
+                "How do catalysts work?",
+                "What is colloidal state?"
+            ],
+            "responses": [
+                "Surface chemistry studies chemical phenomena occurring at interfaces between different phases, focusing on adsorption, catalysis, and colloidal systems.",
+                "Catalysts increase reaction rates by lowering activation energy without being consumed, playing crucial roles in industrial and biological processes."
+            ],
+            "difficulty": "hard",
+            "class": "12th"
+        },
+        {
+            "tag": "chemical_kinetics_class12",
+            "patterns": [
+                "What is chemical kinetics?",
+                "Explain reaction rates",
+                "How do temperature and concentration affect reactions?",
+                "What is activation energy?"
+            ],
+            "responses": [
+                "Chemical kinetics studies reaction rates, mechanisms, and factors influencing the speed of chemical transformations.",
+                "Reaction rates depend on factors like temperature, concentration, surface area, and catalysts. Activation energy represents the minimum energy required to initiate a chemical reaction."
+            ],
+            "difficulty": "hard",
+            "class": "12th"
+        },
+        {
+            "tag": "periodic_table_basics",
+            "patterns": [
+                "What is the periodic table?",
+                "Explain the periodic table",
+                "How is the periodic table organized?",
+                "Tell me about the periodic table structure"
+            ],
+            "responses": [
+                "The periodic table is a tabular arrangement of chemical elements, organized based on their atomic number, electron configuration, and recurring chemical properties.",
+                "Elements in the periodic table are arranged in rows (periods) and columns (groups) that reflect their chemical and physical characteristics."
+            ],
+            "difficulty": "easy"
+        },
+        {
+            "tag": "atomic_structure",
+            "patterns": [
+                "What is an atom?",
+                "Explain atomic structure",
+                "What are protons, neutrons, and electrons?",
+                "How are atoms formed?"
+            ],
+            "responses": [
+                "An atom consists of a nucleus containing protons (positive charge) and neutrons (neutral), surrounded by electrons (negative charge) in orbital shells.",
+                "Atoms are the basic units of matter, with the number of protons determining the element's identity."
+            ],
+            "difficulty": "easy"
+        },
+        {
+            "tag": "chemical_bonding",
+            "patterns": [
+                "What is a chemical bond?",
+                "Explain ionic bonding",
+                "How do covalent bonds work?",
+                "What is metallic bonding?"
+            ],
+            "responses": [
+                "Chemical bonds are attractions between atoms that allow the formation of chemical compounds. There are three main types: ionic, covalent, and metallic bonds.",
+                "Ionic bonds involve electron transfer between metals and non-metals, covalent bonds share electrons between non-metals, and metallic bonds involve electron sea in metal structures."
+            ],
+            "difficulty": "medium"
+        },
+        {
+            "tag": "chemical_reactions",
+            "patterns": [
+                "What is a chemical reaction?",
+                "Explain types of chemical reactions",
+                "How do chemical reactions occur?",
+                "What are synthesis and decomposition reactions?"
+            ],
+            "responses": [
+                "A chemical reaction is a process where reactants are transformed into different substances (products) through rearrangement of atoms.",
+                "Chemical reactions involve breaking and forming chemical bonds, changing the molecular structure of substances."
+            ],
+            "difficulty": "medium"
+        },
+        {
+            
+            "tag": "stoichiometry",
+            "patterns": [
+                "What is stoichiometry?",
+                "How do I calculate molar ratios?",
+                "Explain chemical calculations",
+                "How to solve stoichiometry problems?"
+            ],
+            "responses": [
+                "Stoichiometry is the quantitative relationship between reactants and products in a chemical reaction, using molar ratios and balanced chemical equations.",
+                "It involves calculating quantities of reactants and products based on the balanced chemical equation and molar masses."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "acid_base_chemistry",
+            "patterns": [
+                "What are acids and bases?",
+                "Explain pH scale",
+                "What is neutralization?",
+                "How do acids and bases react?"
+            ],
+            "responses": [
+                "Acids are proton donors, bases are proton acceptors. The pH scale measures hydrogen ion concentration, ranging from 0 (most acidic) to 14 (most basic).",
+                "Neutralization occurs when an acid and base react to form water and a salt, typically resulting in a neutral solution with pH 7."
+            ],
+            "difficulty": "medium"
+        },
+        {
+            "tag": "organic_chemistry_basics",
+            "patterns": [
+                "What is organic chemistry?",
+                "Explain hydrocarbons",
+                "What are functional groups?",
+                "How are organic molecules structured?"
+            ],
+            "responses": [
+                "Organic chemistry studies compounds containing carbon, primarily focusing on hydrocarbons and their derivatives.",
+                "Functional groups are specific atom arrangements within organic molecules that determine their chemical characteristics and reactivity."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "thermodynamics",
+            "patterns": [
+                "What is chemical thermodynamics?",
+                "Explain entropy",
+                "What is Gibbs free energy?",
+                "How do energy changes occur in reactions?"
+            ],
+            "responses": [
+                "Chemical thermodynamics studies energy changes during chemical reactions, including concepts like enthalpy, entropy, and Gibbs free energy.",
+                "Entropy measures disorder in a system, while Gibbs free energy determines the spontaneity of chemical reactions."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "quantum_chemistry",
+            "patterns": [
+                "What is quantum chemistry?",
+                "Explain electron orbitals",
+                "How do quantum mechanics relate to chemistry?",
+                "What are quantum numbers?"
+            ],
+            "responses": [
+                "Quantum chemistry applies quantum mechanics to understand atomic and molecular structure, electron behavior, and chemical bonding.",
+                "Quantum numbers describe electron configuration, energy levels, and probability of electron locations around an atomic nucleus."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "electrochemistry",
+            "patterns": [
+                "What is electrochemistry?",
+                "Explain electrolysis",
+                "How do batteries work?",
+                "What are redox reactions?"
+            ],
+            "responses": [
+                "Electrochemistry studies chemical reactions involving electricity, including electron transfer processes and electrical energy generation.",
+                "Redox (reduction-oxidation) reactions involve electron transfer between chemical species, fundamental to battery and electrolysis processes."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "analytical_chemistry",
+            "patterns": [
+                "What is analytical chemistry?",
+                "Explain spectroscopy",
+                "How do chemists identify substances?",
+                "What are analytical techniques?"
+            ],
+            "responses": [
+                "Analytical chemistry focuses on identifying, separating, and quantifying chemical substances using various instrumental and chemical techniques.",
+                "Spectroscopic methods like UV-Vis, IR, and NMR help identify molecular structures and composition."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "polymer_chemistry",
+            "patterns": [
+                "What are polymers?",
+                "Explain polymer structure",
+                "How are plastics made?",
+                "What are synthetic and natural polymers?"
+            ],
+            "responses": [
+                "Polymers are large molecules composed of repeating subunits called monomers, forming complex structures like plastics, proteins, and DNA.",
+                "Polymerization processes create synthetic polymers through chemical reactions linking monomer units."
+            ],
+            "difficulty": "medium"
+        },
+        {
+            "tag": "physical_chemistry",
+            "patterns": [
+                "What is physical chemistry?",
+                "Explain chemical kinetics",
+                "How do reaction rates work?",
+                "What determines reaction speed?"
+            ],
+            "responses": [
+                "Physical chemistry combines physics and chemistry to study molecular interactions, reaction dynamics, and energy transformations.",
+                "Chemical kinetics examines reaction rates, factors affecting speed, and molecular-level mechanisms of chemical changes."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            
+            "tag": "nuclear_chemistry",
+            "patterns": [
+                "What is nuclear chemistry?",
+                "Explain radioactive decay",
+                "How do nuclear reactions work?",
+                "What is nuclear fission and fusion?"
+            ],
+            "responses": [
+                "Nuclear chemistry studies atomic nuclei, radioactive decay, and nuclear reactions involving changes in atomic structure.",
+                "Radioactive decay involves unstable atomic nuclei releasing energy and transforming into more stable configurations."
+            ],
+            "difficulty": "hard"
+        },
+        {
+            "tag": "environmental_chemistry",
+            "patterns": [
+                "What is environmental chemistry?",
+                "Explain pollution chemistry",
+                "How do chemicals impact ecosystems?",
+                "What are greenhouse gases?"
+            ],
+            "responses": [
+                "Environmental chemistry studies chemical processes in natural and human-modified environments, including pollution, climate change, and ecosystem interactions.",
+                "Chemical analysis helps understand environmental issues like greenhouse gas effects, water quality, and industrial impact."
+            ],
+            "difficulty": "medium"
+        }
+	]
+}
